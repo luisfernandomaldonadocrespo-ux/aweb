@@ -1,0 +1,44 @@
+*¨{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    padding: 2em;
+    background:linear-gradient(to right, blue 0%,green 50%,orange 100%);
+}
+
+h1{
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p{
+    background-color: rgb(153, 190, 223);
+}
+section{
+    display: flex;
+    height: 300px;
+    
+img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 1.75s ease;
+
+}
+img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+}
+
